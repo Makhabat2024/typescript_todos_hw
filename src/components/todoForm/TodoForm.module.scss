@@ -1,0 +1,44 @@
+.formContainer {
+	padding-block: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	.form {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		.inputbox {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+			input {
+				width: 200px;
+				padding: 5px 10px;
+				border-radius: 10px;
+				border: none;
+				outline: none;
+				background: transparent;
+				border: 2px solid #833bac;
+			}
+		}
+	
+	}
+	.allbuttons {
+		display: flex;
+		align-items: center;
+		justify-content: start;
+		gap: 10px;
+	}
+  button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid #833bac;
+  }
+}
